@@ -36,4 +36,4 @@ export RBENV_VERSION=2.1.0
 export PATH=$PATH:/usr/local/bin
 
 ### Heroku
-export PATH="$PATH:/usr/local/heroku/bin"
+export PATH=$PATH:/usr/local/heroku/bin

@@ -35,5 +35,5 @@ export RBENV_VERSION=2.1.0
 # Node
 export PATH=$PATH:/usr/local/bin
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+### Heroku
+export PATH="$PATH:/usr/local/heroku/bin"

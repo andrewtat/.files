@@ -12,6 +12,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ~='cd ~'
+alias proj='cd "/Volumes/Macintosh HD/Dropbox/Projects"'
 
 # Apps
 alias st="open -a 'Sublime Text 2'"
@@ -20,6 +21,7 @@ alias chrome='open /Applications/Google\ Chrome.app'
 
 # Git
 alias g='git'
+alias fetch='git fetch upstream'
 alias pull='git pull origin master'
 alias push='git push origin master'
 alias gc='git commit -m $1'
@@ -28,8 +30,8 @@ alias gs='git status'
 alias gd='git diff --color'
 
 # Rbenv
-export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export RBENV_ROOT=/usr/local/var/rbenv
 export RBENV_VERSION=2.1.0
 
 # Node
@@ -37,3 +39,6 @@ export PATH=$PATH:/usr/local/bin
 
 ### Heroku
 export PATH=$PATH:/usr/local/heroku/bin
+
+# Homebrew
+export PATH=$PATH:/usr/local/sbin

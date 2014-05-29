@@ -15,7 +15,7 @@ alias ~='cd ~'
 alias proj='cd "/Volumes/Macintosh HD/Dropbox/Projects"'
 
 # Apps
-alias at="open -a 'Atom'"
+alias atom="open -a 'Atom'"
 alias st="open -a 'Sublime Text 2'"
 alias preview="open -a 'Preview'"
 alias chrome='open /Applications/Google\ Chrome.app'

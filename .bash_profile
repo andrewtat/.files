@@ -19,6 +19,7 @@ alias atom="open -a 'Atom'"
 alias st="open -a 'Sublime Text 2'"
 alias preview="open -a 'Preview'"
 alias chrome='open /Applications/Google\ Chrome.app'
+alias ngrok='/Applications/ngrok'
 
 # Git
 alias g='git'
@@ -29,6 +30,7 @@ alias gc='git commit -m $1'
 alias ga='git add -A'
 alias gs='git status'
 alias gd='git diff --color'
+alias gb='git branch'
 
 # Rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

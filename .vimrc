@@ -43,7 +43,7 @@ set ttimeoutlen=0
 nnoremap ; :
 nnoremap Y y$
 au InsertEnter * :set nu
-au InsertLeave * :set rnu
+" au InsertLeave * :set rnu
 set number
 autocmd BufRead,BufNewFile * setlocal nospell
 set viminfo=

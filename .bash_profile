@@ -10,7 +10,7 @@ alias ll="ls -al"
 # Directory Aliases
 alias ..='cd ..'
 alias ~='cd ~'
-alias proj='cd ~/Documents/Projects'
+alias proj='cd ~/Projects'
 
 # Apps
 alias atom="open -a 'Atom'"
@@ -42,3 +42,6 @@ export PATH=$PATH:/usr/local/heroku/bin
 
 # Homebrew
 export PATH=$PATH:/usr/local/sbin
+
+# Chef
+export OPC_INSTALLER='~/oc/private-chef_11.1.8-1_amd64.deb'

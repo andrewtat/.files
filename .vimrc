@@ -38,6 +38,11 @@ set autowrite
 set ttimeout
 set ttimeoutlen=0
 
+" Auto-bracketing
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
 
 " Misc preferences
 nnoremap ; :

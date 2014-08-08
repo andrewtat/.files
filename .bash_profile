@@ -12,6 +12,16 @@ alias ..='cd ..'
 alias ~='cd ~'
 alias proj='cd ~/Projects'
 
+# UW
+alias vergil='ssh atat94@vergil.u.washington.edu'
+
+# UW CSE
+alias attu='ssh atat94@attu.cs.washington.edu'
+alias attu1='ssh atat94@attu1.cs.washington.edu'
+alias attu2='ssh atat94@attu2.cs.washington.edu'
+alias attu3='ssh atat94@attu3.cs.washington.edu'
+alias attu4='ssh atat94@attu4.cs.washington.edu'
+
 # Apps
 alias atom="open -a 'Atom'"
 alias preview="open -a 'Preview'"

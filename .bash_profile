@@ -21,6 +21,7 @@ alias attu1='ssh atat94@attu1.cs.washington.edu'
 alias attu2='ssh atat94@attu2.cs.washington.edu'
 alias attu3='ssh atat94@attu3.cs.washington.edu'
 alias attu4='ssh atat94@attu4.cs.washington.edu'
+alias scp='scp atat94@attu.cs.washington.edu:/homes/iws/atat94/Projects/School/cse333-15au-atat94/$1 $2'
 
 # Apps
 alias atom="open -a 'Atom'"
